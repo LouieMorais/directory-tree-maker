@@ -1,0 +1,50 @@
+mindful-art/
+├── .docs/
+├── .research/
+├── .trees/
+├── .vscode/
+├── node_modules/
+├── public/
+│   ├── favicon.ico
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── sw.js
+├── src/
+│   ├── components/
+│   │   ├── AppErrorBoundary.tsx
+│   │   ├── Nav.css
+│   │   └── Nav.tsx
+│   ├── hooks/
+│   │   └── useCachedImage.ts
+│   ├── layouts/
+│   │   └── MainLayout.tsx
+│   ├── lib/
+│   │   └── imageStore.ts
+│   ├── navigation/
+│   │   └── navConfig.ts
+│   ├── pages/
+│   │   ├── ArtworkPage.tsx
+│   │   ├── ResultsPage.tsx
+│   │   ├── SearchPage.tsx
+│   │   └── UserExhibitionsPage.tsx
+│   ├── services/
+│   │   └── artworkService.ts
+│   ├── state/
+│   │   └── useGalleryStore.ts
+│   ├── styles/
+│   │   ├── animations.css
+│   │   └── globals.css
+│   ├── utils/
+│   │   └── searchPartition.ts
+│   ├── App.tsx
+│   └── main.tsx
+├── .env.local
+├── .eslintrc.cjs
+├── .prettierrc
+├── index.html
+├── jest.config.cjs
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts
