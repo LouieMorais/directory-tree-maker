@@ -30,6 +30,7 @@ Desktop.ini
 
 # Project-specific
 .trees/
+.archive/
 .docs/
 *.txt
 
